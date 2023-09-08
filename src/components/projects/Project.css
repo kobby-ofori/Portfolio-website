@@ -38,3 +38,14 @@ h5{
 .video-container:hover .video {
   transform: scale(1.1); /* Scale the video to make it slightly larger on hover */
 }
+
+.project-page a {
+  color: #33201b; 
+  text-decoration: none; /* Remove underlines if needed */
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.project-page a:hover {
+  color: #ff892e; /* Change color on hover */
+}

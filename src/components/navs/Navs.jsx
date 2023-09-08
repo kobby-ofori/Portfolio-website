@@ -13,7 +13,7 @@ const Navs = () => {
       <Row>
         <Navbar>
           <Col>
-            <span className="header-name">Elijah.dev</span>
+            <span className="stroke-text">Elijah.dev</span>
           </Col>
           <Col>
             <div className="header" id="home">

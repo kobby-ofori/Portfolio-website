@@ -20,7 +20,7 @@ const Contact = () => {
       <hr />
       <Row className="contact-info">
         <h5>Contact Information</h5>
-        <Col>
+        <Col xs={12} md={4}>
           <p>
             <strong>Residence:</strong> Accra, Ghana
             <GrLocationPin />
@@ -38,7 +38,7 @@ const Contact = () => {
             
           </p>
         </Col>
-        <Col>
+        <Col xs={12} md={4}>
           <h6>Social Links:</h6>
           <ul className="social-links">
             <li>
@@ -62,7 +62,7 @@ const Contact = () => {
             </li>
           </ul>
         </Col>
-        <Col>
+        <Col xs={12} md={4}>
           <h6>GitHub:</h6>
           <p>
             <a href={gitHubUrl} target="_blank" rel="noopener noreferrer">

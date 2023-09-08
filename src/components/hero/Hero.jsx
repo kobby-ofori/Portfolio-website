@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import { Col, Container, Row } from "react-bootstrap";
 import wavinghand from "../../images/wavinghand.png";
-import pic2 from "../../images/pic2.jpg";
+import hacker from "../../images/hacker.png";
 import { ImHtmlFive2, ImCss3 } from "react-icons/im";
 import {
   SiJavascript,
@@ -49,14 +49,15 @@ const hero = () => {
             <div className="right-t">
               <div></div>
               <div></div>
-              <img src={pic2} alt="profil-pic" />
+              <img src={hacker} alt="profil-pic" />
             </div>
           </Col>
         </Col>
       </Row>
+      <br />
       <Row>
         <Col md={{ span: 3, offset: 3 }}>
-          <div className="tech-stack & programing-languages">
+          <div className="tech-stack programing-languages">
             <ImHtmlFive2 /> <ImCss3 /> <SiJavascript /> <SiBootstrap />{" "}
             <SiTailwindcss /> <SiReact /> <SiMongodb /> <SiExpress />{" "}
             <SiNodedotjs /> <SiPostman />
