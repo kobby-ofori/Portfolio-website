@@ -1,0 +1,26 @@
+/* .footer-row{
+  margin-top: ;
+} */
+
+.horizontal-row{
+  border: 2px solid gray;
+  width: 10rem;
+  border-radius: 2px;
+}
+
+.horizontal-row:hover{
+  cursor: pointer;
+}
+
+.footer-nav{
+  color: black;
+}
+
+.footer-nav:hover{
+  color: orange;
+  text-decoration: underline;
+}
+
+.footer-copyright{
+  text-align: end;
+}

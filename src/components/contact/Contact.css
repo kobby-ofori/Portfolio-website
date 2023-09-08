@@ -1,0 +1,8 @@
+.contact-page a {
+  color: #ff5733; 
+  text-decoration: none; /* Remove underlines if needed */
+}
+
+.contact-page a:hover {
+  color: #ff892e; /* Change color on hover */
+}

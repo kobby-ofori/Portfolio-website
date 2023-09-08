@@ -1,0 +1,36 @@
+.right-t {
+  flex: 1;
+  position: relative;
+  left: 8rem;
+  bottom: 2rem;
+}
+
+.right-t > img {
+  position: absolute;
+  width: 15rem;
+  height: 17rem;
+  object-fit: cover;
+  right: 8rem;
+  top: 2rem;
+  border-radius: 0 25px 0 25px;
+  cursor: pointer;
+}
+
+.right-t > :nth-child(1) {
+  position: absolute;
+  width: 15rem;
+  height: 17rem;
+  border: 2px solid orange;
+  background-color: transparent;
+  right: 9rem;
+  top: 0.9rem;
+}
+
+.right-t > :nth-child(2) {
+  position: absolute;
+  width: 15rem;
+  height: 16rem;
+  background: gold;
+  right: 7rem;
+  top: 4rem;
+}

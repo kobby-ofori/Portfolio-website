@@ -1,0 +1,35 @@
+.card-categories{
+  display: flex;
+  gap: 1rem;
+}
+
+.category{
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(128, 128, 128, 0.985); */
+  padding: 2rem;
+  gap: 1rem;
+  color: black;
+  justify-content: space-between;
+  border: 2px solid rgba(128, 128, 128, 0.985);
+  border-radius: 0 35px 0 35px;
+}
+
+.category:hover{
+  background: rgba(255, 166, 0, 0.729);
+  cursor: pointer;
+}
+
+.category-head{
+  font-weight: bold;
+}
+
+/* .card-video{
+  width: 100px;
+} */
+
+@media screen and (max-width: 768px) {
+  .program-categories{
+    flex-direction: column;
+  }
+}
