@@ -47,7 +47,7 @@ const Project = () => {
             </a>
           </span>{" "}
           <span>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://shirt-fair.netlify.app/" target="_blank" rel="noopener noreferrer">
               Live Demo
               <FiExternalLink />
             </a>
@@ -77,7 +77,7 @@ const Project = () => {
             </a>
           </span>{" "}
           <span>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://expensetracker-track.netlify.app/" target="_blank" rel="noopener noreferrer">
               Live Demo
               <FiExternalLink />
             </a>
@@ -120,7 +120,7 @@ const Project = () => {
             </a>
           </span>{" "}
           <span>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://jump-the-obstacles-game.vercel.app/" target="_blank" rel="noopener noreferrer">
               Live Demo
               <FiExternalLink />
             </a>
@@ -147,7 +147,7 @@ const Project = () => {
             </a>
           </span>{" "}
           <span>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://tour-gh.vercel.app/" target="_blank" rel="noopener noreferrer">
               Live Demo
               <FiExternalLink />
             </a>
