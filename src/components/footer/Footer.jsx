@@ -23,19 +23,19 @@ const Footer = () => {
               </Nav.Link>
               <div className="horizontal-row"></div>
               <Nav.Link>
-                <Link to="home" span={true} smooth={true}>
+                <Link to="about" span={true} smooth={true}>
                   <span className="footer-nav">About</span>
                 </Link>
               </Nav.Link>
               <div className="horizontal-row"></div>
               <Nav.Link>
-                <Link to="home" span={true} smooth={true}>
+                <Link to="projects" span={true} smooth={true}>
                   <span className="footer-nav">Projects</span>
                 </Link>
               </Nav.Link>
               <div className="horizontal-row"></div>
               <Nav.Link>
-                <Link to="home" span={true} smooth={true}>
+                <Link to="contact" span={true} smooth={true}>
                   <span className="footer-nav">Contact</span>
                 </Link>
               </Nav.Link>
