@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Col, Container, Navbar, Row } from "react-bootstrap";
 import menubar from "../../images/menubar.png";
 import { Link } from "react-scroll";
+import DarkMode from "../darkMode/DarkMode";
 
 const Navs = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -14,6 +15,7 @@ const Navs = () => {
         <Navbar>
           <Col>
             <span className="stroke-text">Elijah.dev</span>
+            <DarkMode />
           </Col>
           <Col>
             <div className="header" id="home">

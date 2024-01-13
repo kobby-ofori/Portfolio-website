@@ -10,7 +10,7 @@ const About = () => {
       <Col md={{ span: 8, offset: 3 }}>
         <div class="card mb-3" style={{ maxWidth: "900px", border: "none" }}>
           <div class="row g-0">
-            <div class="col-md-4">
+            <div class="col-md-4 about-me-img">
               <img
                 src={aboutMe}
                 class="img-fluid rounded-start"

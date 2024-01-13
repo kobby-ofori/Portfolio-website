@@ -40,7 +40,7 @@ h5{
 }
 
 .project-page a {
-  color: #33201b; 
+  color: var(--project_page_a); 
   text-decoration: none; /* Remove underlines if needed */
   font-weight: bold;
   padding-left: 25px;

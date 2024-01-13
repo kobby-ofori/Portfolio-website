@@ -9,7 +9,7 @@
   /* background-color: rgba(128, 128, 128, 0.985); */
   padding: 2rem;
   gap: 1rem;
-  color: black;
+  color: var(--body_color);
   justify-content: space-between;
   border: 2px solid rgba(128, 128, 128, 0.985);
   border-radius: 0 35px 0 35px;

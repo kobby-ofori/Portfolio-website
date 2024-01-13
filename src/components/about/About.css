@@ -1,9 +1,20 @@
-.about-row{
-  margin-top: 15rem;
-  margin-right: 10rem;
+.about-me-img{
+  background-color: var(--body_background);
 }
 
-h5{
-  color: rgb(106, 0, 255);
-  font-family: fantasy;
+.card-body {
+  background-color: var(--body_background);
+}
+
+.card-body h5{
+  color: var(--body_color)
+}
+
+.card-text {
+  color: var(--body_color);
+}
+
+.about-row {
+  margin-top: 15rem;
+  margin-right: 10rem;
 }
