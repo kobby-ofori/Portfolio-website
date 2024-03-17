@@ -14,7 +14,7 @@ const Contact = () => {
   const linkedInUrl = "https://www.linkedin.com/in/elijah-ofori-55a24622b";
   const twitterUrl =
     "https://twitter.com/KobbyOfori7?t=gP2rllPP7ZeN2yWWkSYQvg&s=09";
-  const whatsAppUrl = "";
+  const whatsAppUrl = "https://wa.me/+233501081707";
   return (
     <Container className="contact-page" id="contact">
       <hr />

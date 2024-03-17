@@ -8,6 +8,7 @@ import { Link } from "react-scroll";
 const Footer = () => {
   const gitHubUrl = "https://github.com/kobby-ofori?tab=repositories";
   const linkedInUrl = "https://www.linkedin.com/in/elijah-ofori-55a24622b";
+  const currentYear = new Date().getFullYear();
 
   return (
     <>
@@ -58,7 +59,10 @@ const Footer = () => {
         </Row>
         <Row>
           <Col>
-            <p className="footer-copyright">&copy; 2023 by Elijah Ofori</p>
+            <p className="footer-copyright">
+              &copy; 2023 - {currentYear} By Elijah Ofori{" "}
+              <p>All Rights Reserved.</p>
+            </p>
           </Col>
         </Row>
       </Container>
