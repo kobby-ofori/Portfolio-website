@@ -105,7 +105,7 @@ const Project = () => {
           <h6>Jump The Obstacles Game</h6>{" "}
           <p>
             In this game, the player (red) must jump over the obstacles (green)
-            to avoid contact (being killed). The timer represents the player's
+            to avoid contact. The timer represents the player's
             score, with a higher timer indicating a higher score. This game was
             developed using HTML5 canvas and JavaScript.
           </p>

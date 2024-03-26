@@ -1,0 +1,65 @@
+.launch-modal-btn {
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(146, 124, 1, 0.586);
+  box-shadow: 5px 3px 5px rgba(60, 51, 0, 0.586);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.launch-modal-btn:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.5s;
+}
+
+.launch-modal-btn:active {
+  transform: scale(0.5);
+}
+
+.modal-header-style {
+  background-color: rgba(11, 2, 19, 0.574);
+}
+
+/* .modal-title {
+    text-align: center;
+    color: brown;
+  } */
+
+.modal-body-style {
+  background-color: rgba(11, 2, 19, 0.574);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.form-style {
+  margin: 0 5em;
+}
+
+.form-style input {
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.form-style textarea {
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-style {
+    margin: 0;
+  }
+
+  .form-style input {
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }  
+}

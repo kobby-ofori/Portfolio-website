@@ -18,3 +18,19 @@
   margin-top: 15rem;
   margin-right: 10rem;
 }
+
+.btn-container button {
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(146, 124, 1, 0.586);
+  box-shadow: 5px 3px 5px rgba(60, 51, 0, 0.586);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-container button:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.5s;
+}

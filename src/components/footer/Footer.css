@@ -23,4 +23,17 @@
 
 .footer-copyright{
   text-align: end;
+  margin-top: 40px;
+}
+
+/* media queries for responsiveness */
+@media (max-width: 768px) {
+  .footer-nav{
+    color: var(--body_color);
+    font-size: 16px;
+  }
+
+  .footer-copyright{
+    font-size: 16px;
+  }
 }
