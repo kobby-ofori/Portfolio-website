@@ -3,7 +3,7 @@ import "./ContactModal.css";
 // import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import emailjs from "@emailjs/browser";
-import { myServiceId, myTemplateId, mypublicKey } from "../../utils/Utils";
+// import { myServiceId, myTemplateId, mypublicKey } from "../../utils/Utils";
 
 const ContactModal = () => {
   const [show, setShow] = useState(false);
@@ -22,9 +22,9 @@ const ContactModal = () => {
       return; 
     }
 
-    const serviceId = myServiceId;
-    const templateId = myTemplateId;
-    const publicKey = mypublicKey;
+    const serviceId = process.env.REACT_APP_MY_SERVICE_ID;
+    const templateId = process.env.REACT_APP_MY_TEMPLATE_ID;
+    const publicKey = process.env.REACT_APP_MY_PUBLIC_KEY;
 
     const templateParams = {
       to_email: "Elijah Ofori",
