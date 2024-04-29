@@ -6,3 +6,8 @@
 .contact-page a:hover {
   color: #ff892e; /* Change color on hover */
 }
+
+h5 {
+  color: var(--body_color);
+  font-family: "Roboto", sans-serif;
+}

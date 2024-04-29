@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 .App {
   /* mix-blend-mode: overlay; */
   background-color: var(--body_background);
@@ -9,10 +11,10 @@
   color: var(--body_color);
 }
 
-h5 {
+/* h5 {
   color: rgb(106, 0, 255);
-  font-family: fantasy;
-}
+  font-family: "Roboto", sans-serif;
+} */
 
 ::-webkit-scrollbar {
   display: none;
