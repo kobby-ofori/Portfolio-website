@@ -1,19 +1,19 @@
 .App {
   /* mix-blend-mode: overlay; */
-  background-color: var(--body_background); 
+  background-color: var(--body_background);
   display: flex;
   flex-direction: column;
   gap: 3rem;
   overflow: hidden;
   padding-bottom: 1rem;
   color: var(--body_color);
-  }
+}
 
-  h5{
-    color: rgb(106, 0, 255);
-    font-family: fantasy;
-  }
+h5 {
+  color: rgb(106, 0, 255);
+  font-family: fantasy;
+}
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
