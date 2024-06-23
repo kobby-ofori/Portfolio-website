@@ -2,12 +2,15 @@
   --body_background: white;
   --body_color: black;
   --project_page_a: #33201b;
+  --project_info_card_background: linear-gradient(310.16deg, #b0e0de 18.64%, #eeabca 82.88%); 
 }
 
 [data-theme="dark"] {
   --body_background: #282c34;
   --body_color: white;
-  --project_page_a: #FF5733;
+  --project_page_a: #fd866b;
+  --project_info_card_background: linear-gradient(310.16deg, #272130 18.64%, #16222e 82.88%),
+  linear-gradient(0deg, #fff, #fff);
 }
 
 body {
