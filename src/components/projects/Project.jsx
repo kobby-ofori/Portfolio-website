@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 import { Col, Container, Row } from "react-bootstrap";
-import Roots from "../../images/Roots.png";
+import rootsVideo from "../../videos/rootsVideo.webm";
 import expenseTracker from "../../videos/expenseTracker.webm";
 import jumpTheObstaclesGame from "../../videos/jumpTheObstaclesGame.mp4";
 import tourGhana from "../../videos/tourGhana.mp4";
@@ -28,7 +28,7 @@ const Project = () => {
       <Row>
         <Col md={{ span: 4, offset: 2 }}>
           <ProjectCard
-            projectMedia={Roots}
+            projectMedia={rootsVideo}
             title="Roots"
             projectIcon={rootslogo}
             description="This a web application designed to address the lack of sufficient funds to rent shops in busy areas, which hinders the ability of traditional attire and fabric sellers and designers, such as kente, kete, 

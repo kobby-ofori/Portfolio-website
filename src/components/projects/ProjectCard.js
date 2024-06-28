@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
   return (
     <div className="project-info-card">
       <div className="project-video-div">
-        <video class="video" controls>
+        <video className="video" controls>
           <source src={props.projectMedia} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
