@@ -1,12 +1,12 @@
 import React from "react";
 import "./Project.css";
 import { Col, Container, Row } from "react-bootstrap";
-import ecommercePaystack from "../../videos/ecommercePaystack.webm";
+import Roots from "../../images/Roots.png";
 import expenseTracker from "../../videos/expenseTracker.webm";
 import jumpTheObstaclesGame from "../../videos/jumpTheObstaclesGame.mp4";
 import tourGhana from "../../videos/tourGhana.mp4";
 import ProjectCard from "./ProjectCard";
-import ecommerceLogo from "../../images/ecommerceLogo.png";
+import rootslogo from "../../images/rootslogo.png";
 import expense from "../../images/expense.png";
 import boy from "../../images/boy.png";
 import tourGh from "../../images/tourGh.png";
@@ -28,15 +28,14 @@ const Project = () => {
       <Row>
         <Col md={{ span: 4, offset: 2 }}>
           <ProjectCard
-            projectMedia={ecommercePaystack}
-            title="Ecommerce Website"
-            projectIcon={ecommerceLogo}
-            description="This an online platform that allows users to buy attires. Payment is
-            done with paystack. I developed this e-commerce web app using
-            React.js and Redux, styled it with React-Bootstrap."
-            linkAddress1="https://github.com/kobby-ofori/E-commerce_webapp_with_paystack"
+            projectMedia={Roots}
+            title="Roots"
+            projectIcon={rootslogo}
+            description="This a web application designed to address the lack of sufficient funds to rent shops in busy areas, which hinders the ability of traditional attire and fabric sellers and designers, such as kente, kete, 
+            and gonja weavers to sell their products effectively. MERN Stack(MongoDB, Express, React, Node), Bootstrap, Multer, Paystack, etc."
+            linkAddress1="https://github.com/kobby-ofori/Project-Roots-eCommerce-app-frontend"
             linkText1="Code"
-            linkAddress2="https://shirt-fair.netlify.app/"
+            linkAddress2="https://roots-ecommerce-app.onrender.com/"
             linkText2="Live Demo"
             buttonText="Visit"
           />
