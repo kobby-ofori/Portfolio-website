@@ -21,12 +21,10 @@ const About = () => {
                 <h5>ABOUT ME</h5>
                 <p class="card-text">
                   Greetings! I'm Elijah, a passionate🌟 web & mobile app
-                  developer with a knack for crafting engaging and user-centric
-                  web experiences. My journey🚀 into web development was sparked
+                  developer. My journey into web development was sparked
                   by a desire to build captivating and functional websites,
-                  leading me to gain expertise💡 in cutting-edge technologies.
-                  My forte lies in front-end development, specializing in
-                  React.js, where I bring design concepts to life with dynamic,
+                  leading me to gain expertise in cutting-edge technologies.
+                  I specialize in front-end development, where I bring design concepts to life with dynamic,
                   responsive interfaces. Additionally, I'm well-versed in
                   MongoDB, Express.js, React Native, Expo, Node.js, Redux,
                   JavaScript, Python, Django, HTML, and CSS, enabling efficient

@@ -82,11 +82,11 @@ const Skills = () => {
 
           <div className="experience-item">
             <div className="experience-info">
-              <p>AWS CERTIFIED CLOUD PRACTITIONER</p>
-              <p>95%</p>
+              <p>AWS SOLUTIONS ARCHITECT - ASSOCIATE</p>
+              <p>100%</p>
             </div>
             <div className="progress-line" data-percent="95%">
-              <span style={{ width: "95%" }}></span>
+              <span style={{ width: "100%" }}></span>
             </div>
           </div>
         </Col>
