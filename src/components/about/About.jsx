@@ -20,7 +20,7 @@ const About = () => {
               <div class="card-body">
                 <h5>ABOUT ME</h5>
                 <p class="card-text">
-                  Greetings! I'm Elijah, a passionate🌟 web & mobile app
+                  I'm Elijah, a passionate🌟 web & mobile app
                   developer. My journey into web development was sparked
                   by a desire to build captivating and functional websites,
                   leading me to gain expertise in cutting-edge technologies.
