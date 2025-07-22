@@ -26,11 +26,11 @@ const hero = () => {
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
           <Col>
-            <h2>Web & Mobile App Developer</h2>
+            <h2>Frontend Developer</h2>
             <p>
               Hello World{" "}
               <img src={wavinghand} alt="waving-hand" width="24px" />, I'm
-              Elijah Ofori, your passionate IT enthusiast and skilled Web &
+              Elijah Ofori, your passionate IT enthusiast and skilled Frontend &
               Mobile App Developer hailing from the vibrant tech scene in Accra,
               Ghana. 🌍💻 Let's craft captivating digital experiences together!
             </p>

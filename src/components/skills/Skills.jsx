@@ -1,13 +1,17 @@
 import React from "react";
 import "./Skills.css";
 import { Col, Container, Row } from "react-bootstrap";
+import AwsCertifiedCloudPractitionerCertificate from "../../images/AwsCertifiedCloudPractitionerCertificate.png"
+import AwsCertifiedSolutionsArchitectAssociateCertificate from "../../images/AwsCertifiedSolutionsArchitectAssociateCertificate.png"
+import AwsCertifiedCloudPractitionerCertificatePdf from  "../../docs/AwsCertifiedCloudPractitionerCertificatePdf.pdf"
+import AwsCertifiedSolutionsArchitectAssociateCertificatePdf from  "../../docs/AwsCertifiedSolutionsArchitectAssociateCertificatePdf.pdf"
 
 const Skills = () => {
   return (
     <Container>
       <Row>
         <h5>Skills</h5>
-        <Col md={{span:4, offset:2}}>
+        <Col md={{ span: 4, offset: 2 }}>
           <div className="experience-item">
             <div className="experience-info">
               <p>HTML</p>
@@ -49,7 +53,7 @@ const Skills = () => {
           </div>
         </Col>
 
-        <Col md={{span:4, offset:2}}>
+        <Col md={{ span: 4, offset: 2 }}>
           <div className="experience-item">
             <div className="experience-info">
               <p>DJANGO</p>
@@ -87,6 +91,49 @@ const Skills = () => {
             </div>
             <div className="progress-line" data-percent="95%">
               <span style={{ width: "100%" }}></span>
+            </div>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={{ span: 4, offset: 2 }}>
+          <div className="experience-item">
+            <div className="experience-info">
+              <p>AWS SOLUTIONS ARCHITECT - ASSOCIATE</p>
+            </div>
+            <div>
+              <a
+                href={AwsCertifiedSolutionsArchitectAssociateCertificatePdf}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={AwsCertifiedSolutionsArchitectAssociateCertificate}
+                  alt="AWS Certificate 1"
+                  className="certificate-img"
+                />
+              </a>
+            </div>
+          </div>
+        </Col>
+
+        <Col md={{ span: 4, offset: 2 }}>
+          <div className="experience-item">
+            <div className="experience-info">
+              <p>AWS CLOUD PRACTITIONER</p>
+            </div>
+            <div>
+              <a
+                href={AwsCertifiedCloudPractitionerCertificatePdf}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={AwsCertifiedCloudPractitionerCertificate}
+                  alt="AWS Certificate 2"
+                  className="certificate-img"
+                />
+              </a>
             </div>
           </div>
         </Col>
